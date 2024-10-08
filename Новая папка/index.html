@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Әлемнің атақты боксерлары</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e9ecef;
+            color: #343a40;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        .boxers {
+            display: flex;
+            justify-content: space-between; /* Выравнивание между элементами */
+            flex-wrap: nowrap; /* Убираем перенос строк */
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        .boxer {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px;
+            width: 30%; /* Устанавливаем фиксированную ширину */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .boxer:hover {
+            transform: translateY(-5px);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #007bff;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.1em;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Әлемнің атақты боксерлары</h1>
+    <div class="boxers">
+        <div class="boxer">
+            <h2>Мохаммед Али</h2>
+            <img src="ali.jpg" alt="Мохаммед Али">
+            <p>Мохаммед Али - әлемнің ең атақты боксшыларының бірі, үш рет әлем чемпионы болған.</p>
+        </div>
+        <div class="boxer">
+            <h2>Майк Тайсон</h2>
+            <img src="tyson.jpg" alt="Майк Тайсон">
+            <p>Майк Тайсон - әлемнің ең жас ауыр салмақтағы чемпионы, атақты нокаутер.</p>
+        </div>
+        <div class="boxer">
+            <h2>Флойд Мейвезер</h2>
+            <img src="mayweather.jpg" alt="Флойд Мейвезер">
+            <p>Флойд Мейвезер - жекпе-жекте жеңілмеген, бірнеше әлем чемпионаттарын жеңген.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Бұл жұмысты орындаған: <strong>Алпысов Нурканат ИС-24-1</strong></p>
+        <p><a href="about.html">Автор туралы ақпарат</a></p>
+    </footer>
+</body>
+</html>
